@@ -2,8 +2,8 @@
 Contributors: salcode
 Tags: 
 Requires at least: 3.9
-Tested up to: 3.9.2
-Stable tag: 0.9.0
+Tested up to: 4.7.3
+Stable tag: 0.10.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Adds plugins to the Quick Links admin bar
 == Description ==
 Adds plugins to the Quick Links on the public facing admin bar for users with the ability to view the plugins screen
 
-Built by <a href="//twitter.com/salcode">@salcode</a> / <a rel="author" href="https://plus.google.com/100823173217716320069">Sal Ferrarello</a>
+Built by <a href="https://salferrarello.com">Sal Ferrarello</a> / <a href="https://twitter.com/salcode">@salcode</a>
 
 == Installation ==
 
@@ -30,9 +30,13 @@ Built by <a href="//twitter.com/salcode">@salcode</a> / <a rel="author" href="ht
 
 When working on websites I often find myself working on their plugins.
 This plugin was written to save myself a click (and a page load)
-everything time I wanted the plugins screen.
+every time I wanted the plugins screen.
 
 == Changelog ==
+
+= 0.10.0 =
+* Modify logic to always include the Plugins menu item in the menu bar (previously, it was excluded from wp-admin pages).
+* Code tidy
 
 = 0.9.0 =
 * Initial version created
